@@ -1,0 +1,238 @@
+C:\Users\Miguel\Desktop\185\part2>python run_main.py --dim_z 20 --num_epochs 60
+C:\Users\Miguel\Anaconda3\lib\site-packages\h5py\__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Extracting data\train-images-idx3-ubyte.gz
+Extracting data\train-labels-idx1-ubyte.gz
+Extracting data\t10k-images-idx3-ubyte.gz
+Extracting data\t10k-labels-idx1-ubyte.gz
+2018-06-06 22:28:12.297910: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX AVX2
+epoch 0: L_tot 134.28 L_likelihood 109.52 L_divergence 24.76
+epoch 1: L_tot 123.52 L_likelihood 98.58 L_divergence 24.94
+epoch 2: L_tot 122.43 L_likelihood 97.90 L_divergence 24.53
+epoch 3: L_tot 121.27 L_likelihood 97.05 L_divergence 24.22
+epoch 4: L_tot 120.02 L_likelihood 95.35 L_divergence 24.67
+epoch 5: L_tot 119.07 L_likelihood 94.34 L_divergence 24.72
+epoch 6: L_tot 110.95 L_likelihood 87.30 L_divergence 23.65
+epoch 7: L_tot 113.15 L_likelihood 88.98 L_divergence 24.18
+epoch 8: L_tot 114.31 L_likelihood 89.89 L_divergence 24.42
+epoch 9: L_tot 111.70 L_likelihood 87.55 L_divergence 24.15
+epoch 10: L_tot 118.29 L_likelihood 92.61 L_divergence 25.68
+epoch 11: L_tot 112.91 L_likelihood 88.65 L_divergence 24.26
+epoch 12: L_tot 112.82 L_likelihood 88.47 L_divergence 24.34
+epoch 13: L_tot 109.53 L_likelihood 85.81 L_divergence 23.72
+epoch 14: L_tot 110.96 L_likelihood 86.84 L_divergence 24.12
+epoch 15: L_tot 109.72 L_likelihood 85.63 L_divergence 24.10
+epoch 16: L_tot 110.98 L_likelihood 86.76 L_divergence 24.22
+epoch 17: L_tot 112.51 L_likelihood 88.63 L_divergence 23.87
+epoch 18: L_tot 111.02 L_likelihood 86.98 L_divergence 24.03
+epoch 19: L_tot 112.48 L_likelihood 87.74 L_divergence 24.74
+epoch 20: L_tot 110.77 L_likelihood 87.22 L_divergence 23.55
+epoch 21: L_tot 111.21 L_likelihood 86.86 L_divergence 24.34
+epoch 22: L_tot 114.44 L_likelihood 90.10 L_divergence 24.34
+epoch 23: L_tot 109.66 L_likelihood 85.33 L_divergence 24.33
+epoch 24: L_tot 113.14 L_likelihood 88.48 L_divergence 24.65
+epoch 25: L_tot 112.58 L_likelihood 88.27 L_divergence 24.30
+epoch 26: L_tot 104.12 L_likelihood 80.62 L_divergence 23.50
+epoch 27: L_tot 110.62 L_likelihood 86.01 L_divergence 24.61
+epoch 28: L_tot 109.38 L_likelihood 85.50 L_divergence 23.88
+epoch 29: L_tot 108.21 L_likelihood 84.26 L_divergence 23.95
+epoch 30: L_tot 112.89 L_likelihood 88.00 L_divergence 24.89
+epoch 31: L_tot 110.10 L_likelihood 85.99 L_divergence 24.11
+epoch 32: L_tot 110.32 L_likelihood 86.35 L_divergence 23.98
+epoch 33: L_tot 106.38 L_likelihood 82.94 L_divergence 23.44
+epoch 34: L_tot 105.42 L_likelihood 81.93 L_divergence 23.49
+epoch 35: L_tot 109.09 L_likelihood 84.83 L_divergence 24.26
+epoch 36: L_tot 107.17 L_likelihood 83.49 L_divergence 23.69
+epoch 37: L_tot 108.35 L_likelihood 84.08 L_divergence 24.27
+epoch 38: L_tot 112.23 L_likelihood 87.84 L_divergence 24.39
+epoch 39: L_tot 112.99 L_likelihood 88.27 L_divergence 24.72
+epoch 40: L_tot 106.37 L_likelihood 82.39 L_divergence 23.97
+epoch 41: L_tot 110.71 L_likelihood 86.13 L_divergence 24.58
+epoch 42: L_tot 111.15 L_likelihood 87.01 L_divergence 24.14
+epoch 43: L_tot 106.96 L_likelihood 83.36 L_divergence 23.60
+epoch 44: L_tot 108.59 L_likelihood 84.30 L_divergence 24.29
+epoch 45: L_tot 111.14 L_likelihood 86.47 L_divergence 24.67
+epoch 46: L_tot 108.12 L_likelihood 83.73 L_divergence 24.38
+epoch 47: L_tot 104.20 L_likelihood 80.67 L_divergence 23.53
+epoch 48: L_tot 109.52 L_likelihood 85.75 L_divergence 23.77
+epoch 49: L_tot 109.52 L_likelihood 85.72 L_divergence 23.80
+epoch 50: L_tot 107.74 L_likelihood 84.17 L_divergence 23.57
+epoch 51: L_tot 113.41 L_likelihood 88.60 L_divergence 24.81
+epoch 52: L_tot 111.59 L_likelihood 87.01 L_divergence 24.58
+epoch 53: L_tot 109.21 L_likelihood 84.53 L_divergence 24.68
+epoch 54: L_tot 111.63 L_likelihood 86.97 L_divergence 24.66
+epoch 55: L_tot 109.35 L_likelihood 85.16 L_divergence 24.19
+epoch 56: L_tot 109.49 L_likelihood 85.66 L_divergence 23.84
+epoch 57: L_tot 106.38 L_likelihood 82.71 L_divergence 23.67
+epoch 58: L_tot 109.10 L_likelihood 84.87 L_divergence 24.22
+epoch 59: L_tot 107.90 L_likelihood 84.54 L_divergence 23.36
+
+MANIFOLDS:
+C:\Users\Miguel\Desktop\185\part2>python run_main.py --dim_z 5 --num_epochs 60
+C:\Users\Miguel\Anaconda3\lib\site-packages\h5py\__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Successfully downloaded train-images-idx3-ubyte.gz 9912422 bytes.
+Successfully downloaded train-labels-idx1-ubyte.gz 28881 bytes.
+Successfully downloaded t10k-images-idx3-ubyte.gz 1648877 bytes.
+Successfully downloaded t10k-labels-idx1-ubyte.gz 4542 bytes.
+Extracting data\train-images-idx3-ubyte.gz
+Extracting data\train-labels-idx1-ubyte.gz
+Extracting data\t10k-images-idx3-ubyte.gz
+Extracting data\t10k-labels-idx1-ubyte.gz
+2018-06-06 22:26:58.125277: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX AVX2
+epoch 0: L_tot 166.63 L_likelihood 154.28 L_divergence 12.35
+epoch 1: L_tot 149.30 L_likelihood 137.21 L_divergence 12.09
+epoch 2: L_tot 140.95 L_likelihood 129.62 L_divergence 11.34
+epoch 3: L_tot 136.91 L_likelihood 126.00 L_divergence 10.91
+epoch 4: L_tot 136.80 L_likelihood 125.72 L_divergence 11.08
+epoch 5: L_tot 135.42 L_likelihood 124.34 L_divergence 11.07
+epoch 6: L_tot 136.35 L_likelihood 124.87 L_divergence 11.48
+epoch 7: L_tot 130.52 L_likelihood 119.09 L_divergence 11.43
+forrtl: error (200): program aborting due to control-C event
+Image              PC                Routine            Line        Source
+libifcoremd.dll    00007FFEDD6394C4  Unknown               Unknown  Unknown
+KERNELBASE.dll     00007FFF03D3717D  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFF04332784  Unknown               Unknown  Unknown
+ntdll.dll          00007FFF06CE0D51  Unknown               Unknown  Unknown
+
+C:\Users\Miguel\Desktop\185\part2>python run_main.py --dim_z 20 --num_epochs 60
+C:\Users\Miguel\Anaconda3\lib\site-packages\h5py\__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Extracting data\train-images-idx3-ubyte.gz
+Extracting data\train-labels-idx1-ubyte.gz
+Extracting data\t10k-images-idx3-ubyte.gz
+Extracting data\t10k-labels-idx1-ubyte.gz
+2018-06-06 22:28:12.297910: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX AVX2
+epoch 0: L_tot 134.28 L_likelihood 109.52 L_divergence 24.76
+epoch 1: L_tot 123.52 L_likelihood 98.58 L_divergence 24.94
+epoch 2: L_tot 122.43 L_likelihood 97.90 L_divergence 24.53
+epoch 3: L_tot 121.27 L_likelihood 97.05 L_divergence 24.22
+epoch 4: L_tot 120.02 L_likelihood 95.35 L_divergence 24.67
+epoch 5: L_tot 119.07 L_likelihood 94.34 L_divergence 24.72
+epoch 6: L_tot 110.95 L_likelihood 87.30 L_divergence 23.65
+epoch 7: L_tot 113.15 L_likelihood 88.98 L_divergence 24.18
+epoch 8: L_tot 114.31 L_likelihood 89.89 L_divergence 24.42
+epoch 9: L_tot 111.70 L_likelihood 87.55 L_divergence 24.15
+epoch 10: L_tot 118.29 L_likelihood 92.61 L_divergence 25.68
+epoch 11: L_tot 112.91 L_likelihood 88.65 L_divergence 24.26
+epoch 12: L_tot 112.82 L_likelihood 88.47 L_divergence 24.34
+epoch 13: L_tot 109.53 L_likelihood 85.81 L_divergence 23.72
+epoch 14: L_tot 110.96 L_likelihood 86.84 L_divergence 24.12
+epoch 15: L_tot 109.72 L_likelihood 85.63 L_divergence 24.10
+epoch 16: L_tot 110.98 L_likelihood 86.76 L_divergence 24.22
+epoch 17: L_tot 112.51 L_likelihood 88.63 L_divergence 23.87
+epoch 18: L_tot 111.02 L_likelihood 86.98 L_divergence 24.03
+epoch 19: L_tot 112.48 L_likelihood 87.74 L_divergence 24.74
+epoch 20: L_tot 110.77 L_likelihood 87.22 L_divergence 23.55
+epoch 21: L_tot 111.21 L_likelihood 86.86 L_divergence 24.34
+epoch 22: L_tot 114.44 L_likelihood 90.10 L_divergence 24.34
+epoch 23: L_tot 109.66 L_likelihood 85.33 L_divergence 24.33
+epoch 24: L_tot 113.14 L_likelihood 88.48 L_divergence 24.65
+epoch 25: L_tot 112.58 L_likelihood 88.27 L_divergence 24.30
+epoch 26: L_tot 104.12 L_likelihood 80.62 L_divergence 23.50
+epoch 27: L_tot 110.62 L_likelihood 86.01 L_divergence 24.61
+epoch 28: L_tot 109.38 L_likelihood 85.50 L_divergence 23.88
+epoch 29: L_tot 108.21 L_likelihood 84.26 L_divergence 23.95
+epoch 30: L_tot 112.89 L_likelihood 88.00 L_divergence 24.89
+epoch 31: L_tot 110.10 L_likelihood 85.99 L_divergence 24.11
+epoch 32: L_tot 110.32 L_likelihood 86.35 L_divergence 23.98
+epoch 33: L_tot 106.38 L_likelihood 82.94 L_divergence 23.44
+epoch 34: L_tot 105.42 L_likelihood 81.93 L_divergence 23.49
+epoch 35: L_tot 109.09 L_likelihood 84.83 L_divergence 24.26
+epoch 36: L_tot 107.17 L_likelihood 83.49 L_divergence 23.69
+epoch 37: L_tot 108.35 L_likelihood 84.08 L_divergence 24.27
+epoch 38: L_tot 112.23 L_likelihood 87.84 L_divergence 24.39
+epoch 39: L_tot 112.99 L_likelihood 88.27 L_divergence 24.72
+epoch 40: L_tot 106.37 L_likelihood 82.39 L_divergence 23.97
+epoch 41: L_tot 110.71 L_likelihood 86.13 L_divergence 24.58
+epoch 42: L_tot 111.15 L_likelihood 87.01 L_divergence 24.14
+epoch 43: L_tot 106.96 L_likelihood 83.36 L_divergence 23.60
+epoch 44: L_tot 108.59 L_likelihood 84.30 L_divergence 24.29
+epoch 45: L_tot 111.14 L_likelihood 86.47 L_divergence 24.67
+epoch 46: L_tot 108.12 L_likelihood 83.73 L_divergence 24.38
+epoch 47: L_tot 104.20 L_likelihood 80.67 L_divergence 23.53
+epoch 48: L_tot 109.52 L_likelihood 85.75 L_divergence 23.77
+epoch 49: L_tot 109.52 L_likelihood 85.72 L_divergence 23.80
+epoch 50: L_tot 107.74 L_likelihood 84.17 L_divergence 23.57
+epoch 51: L_tot 113.41 L_likelihood 88.60 L_divergence 24.81
+epoch 52: L_tot 111.59 L_likelihood 87.01 L_divergence 24.58
+epoch 53: L_tot 109.21 L_likelihood 84.53 L_divergence 24.68
+epoch 54: L_tot 111.63 L_likelihood 86.97 L_divergence 24.66
+epoch 55: L_tot 109.35 L_likelihood 85.16 L_divergence 24.19
+epoch 56: L_tot 109.49 L_likelihood 85.66 L_divergence 23.84
+epoch 57: L_tot 106.38 L_likelihood 82.71 L_divergence 23.67
+epoch 58: L_tot 109.10 L_likelihood 84.87 L_divergence 24.22
+epoch 59: L_tot 107.90 L_likelihood 84.54 L_divergence 23.36
+
+C:\Users\Miguel\Desktop\185\part2>
+
+C:\Users\Miguel\Desktop\185\part2>
+
+C:\Users\Miguel\Desktop\185\part2>python run_main.py --dim_z 2 --num_epochs 60 --PMLR True
+C:\Users\Miguel\Anaconda3\lib\site-packages\h5py\__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Extracting data\train-images-idx3-ubyte.gz
+Extracting data\train-labels-idx1-ubyte.gz
+Extracting data\t10k-images-idx3-ubyte.gz
+Extracting data\t10k-labels-idx1-ubyte.gz
+2018-06-06 22:37:03.743244: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX AVX2
+epoch 0: L_tot 197.38 L_likelihood 188.26 L_divergence 9.12
+epoch 1: L_tot 180.61 L_likelihood 173.28 L_divergence 7.34
+epoch 2: L_tot 166.42 L_likelihood 160.12 L_divergence 6.30
+epoch 3: L_tot 160.56 L_likelihood 154.51 L_divergence 6.05
+epoch 4: L_tot 165.50 L_likelihood 160.05 L_divergence 5.44
+epoch 5: L_tot 165.02 L_likelihood 159.03 L_divergence 5.99
+epoch 6: L_tot 156.34 L_likelihood 150.42 L_divergence 5.92
+epoch 7: L_tot 156.10 L_likelihood 149.94 L_divergence 6.16
+epoch 8: L_tot 150.07 L_likelihood 143.86 L_divergence 6.21
+epoch 9: L_tot 158.82 L_likelihood 152.69 L_divergence 6.13
+epoch 10: L_tot 155.21 L_likelihood 148.78 L_divergence 6.43
+epoch 11: L_tot 148.55 L_likelihood 141.81 L_divergence 6.74
+epoch 12: L_tot 146.64 L_likelihood 140.27 L_divergence 6.38
+epoch 13: L_tot 150.99 L_likelihood 144.65 L_divergence 6.34
+epoch 14: L_tot 155.04 L_likelihood 148.86 L_divergence 6.18
+epoch 15: L_tot 157.33 L_likelihood 151.10 L_divergence 6.23
+epoch 16: L_tot 147.21 L_likelihood 141.01 L_divergence 6.20
+epoch 17: L_tot 152.61 L_likelihood 146.40 L_divergence 6.20
+epoch 18: L_tot 147.02 L_likelihood 140.35 L_divergence 6.67
+epoch 19: L_tot 138.91 L_likelihood 132.23 L_divergence 6.68
+epoch 20: L_tot 149.34 L_likelihood 142.81 L_divergence 6.54
+epoch 21: L_tot 147.52 L_likelihood 141.06 L_divergence 6.45
+epoch 22: L_tot 155.48 L_likelihood 148.83 L_divergence 6.65
+epoch 23: L_tot 143.95 L_likelihood 137.55 L_divergence 6.40
+epoch 24: L_tot 144.83 L_likelihood 138.61 L_divergence 6.22
+epoch 25: L_tot 146.38 L_likelihood 140.10 L_divergence 6.28
+epoch 26: L_tot 145.93 L_likelihood 139.49 L_divergence 6.45
+epoch 27: L_tot 156.48 L_likelihood 149.97 L_divergence 6.51
+epoch 28: L_tot 148.76 L_likelihood 141.91 L_divergence 6.85
+epoch 29: L_tot 147.84 L_likelihood 141.26 L_divergence 6.59
+epoch 30: L_tot 147.28 L_likelihood 140.76 L_divergence 6.51
+epoch 31: L_tot 143.63 L_likelihood 136.70 L_divergence 6.93
+epoch 32: L_tot 143.65 L_likelihood 136.80 L_divergence 6.85
+epoch 33: L_tot 144.64 L_likelihood 137.92 L_divergence 6.72
+epoch 34: L_tot 148.47 L_likelihood 141.88 L_divergence 6.59
+epoch 35: L_tot 148.79 L_likelihood 142.17 L_divergence 6.62
+epoch 36: L_tot 150.33 L_likelihood 143.89 L_divergence 6.44
+epoch 37: L_tot 148.34 L_likelihood 141.51 L_divergence 6.83
+epoch 38: L_tot 148.89 L_likelihood 142.10 L_divergence 6.80
+epoch 39: L_tot 142.13 L_likelihood 135.47 L_divergence 6.66
+epoch 40: L_tot 146.20 L_likelihood 139.22 L_divergence 6.97
+epoch 41: L_tot 151.50 L_likelihood 144.98 L_divergence 6.52
+epoch 42: L_tot 149.52 L_likelihood 142.68 L_divergence 6.83
+epoch 43: L_tot 147.82 L_likelihood 141.51 L_divergence 6.31
+epoch 44: L_tot 150.12 L_likelihood 143.61 L_divergence 6.51
+epoch 45: L_tot 140.05 L_likelihood 133.22 L_divergence 6.83
+epoch 46: L_tot 146.16 L_likelihood 139.31 L_divergence 6.84
+epoch 47: L_tot 145.65 L_likelihood 139.09 L_divergence 6.56
+epoch 48: L_tot 148.94 L_likelihood 142.10 L_divergence 6.84
+epoch 49: L_tot 150.69 L_likelihood 143.92 L_divergence 6.77
+epoch 50: L_tot 146.16 L_likelihood 139.24 L_divergence 6.92
+epoch 51: L_tot 146.71 L_likelihood 140.08 L_divergence 6.63
+epoch 52: L_tot 144.60 L_likelihood 137.37 L_divergence 7.23
+epoch 53: L_tot 147.25 L_likelihood 140.39 L_divergence 6.86
+epoch 54: L_tot 146.50 L_likelihood 140.07 L_divergence 6.43
+epoch 55: L_tot 146.71 L_likelihood 139.71 L_divergence 7.00
+epoch 56: L_tot 151.30 L_likelihood 144.83 L_divergence 6.47
+epoch 57: L_tot 138.60 L_likelihood 132.02 L_divergence 6.58
+epoch 58: L_tot 142.27 L_likelihood 135.46 L_divergence 6.81
+epoch 59: L_tot 151.02 L_likelihood 144.34 L_divergence 6.68
