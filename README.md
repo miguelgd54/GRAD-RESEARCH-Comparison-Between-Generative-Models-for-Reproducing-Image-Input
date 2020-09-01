@@ -1,4 +1,4 @@
-# Comparison Between Generative-Models for Reproducing Image Input
+## Comparison Between Generative Models for Reproducing Image Input
 
 This project is for a graduate level class that compares various generative machine learning models for image reproduction. 
 Most of these models are based on Convolutional Neural Networks and Recurrent Neural Networks. Datasets used are the MNIST and CelebA set.
